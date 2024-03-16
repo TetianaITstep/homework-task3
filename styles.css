@@ -1,0 +1,71 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    background-color: rgb(243, 243, 243);
+}
+
+
+.first-paragaph {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: left; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+}
+
+.second-paragraph{
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: left; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+}
+
+.title{
+    text-align: center;
+}
+.title-two{
+    text-align: center;
+}
+
+.code{
+    background-color: #f7f7f7;
+}
+
+.background {
+    margin-left: 130px;
+    background-color: rgb(212, 209, 209);
+    padding: 14px;
+    width: 80%;
+    display: flex;
+    font-size: 14px;
+}
+
+.background pre {
+    color: red; 
+}
+
+.background pre .black {
+    color: black; 
+}
+
+.list-tags{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    color: rgb(14, 50, 255);
+    margin-left: 100px;
+}
+
+.list-tags li {
+    padding: 5px 5px; 
+    margin-right: 5px; 
+    background-color: rgb(212, 209, 209);
+    
+}
+
+.list-tags .tags {
+    background-color: transparent; 
+    color: black; 
+    font-weight: 800; 
+}
